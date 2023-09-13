@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css task 5</title>
+    <style>
+      
+
+      body {
+        background-color: rgb(172, 255, 134);
+      }
+      /* styling for sidebar */
+      #main {
+        margin-top: 20px;
+        display: flex;
+      }
+      #sidebar {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebutton {
+        font-size: large;
+        text-align: left;
+        margin: 5px;
+        color: blue;
+        background-color: white;
+        width: 150px;
+        height: 30px;
+        border-right: 30px solid black;
+      }
+      .sidebutton:hover {
+        color: rgb(255, 207, 255);
+        width: 160px;
+        height: 35px;
+        background-color: black;
+      }
+      /* styling for para */
+      #text {
+        margin-left: 10px;
+      }
+      
+      p{
+        font-size: larger;
+        color: purple;
+      }
+      hr{
+        color: purple;
+      }
+      h1{
+        color: purple;
+        font-weight: bold;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="sidebar">
+        <div class="sidebutton">Home page</div>
+        <div class="sidebutton">Musings</div>
+        <div class="sidebutton">My town</div>
+        <div class="sidebutton">Links</div>
+      </div>
+      <div id="text">
+        <h1>My first styled page</h1>
+        <p>Welcome to my styled page!</p>
+        <p>
+          It lacks images.but at least it has style. And it has links,even if
+          the dont go anywhere.....
+        </p>
+        <p>There should be more here,but I dont know what yet.</p>
+        <hr />
+        <p>Made 5 April 2004</p>
+        <p>by myself</p>
+      </div>
+    </div>
+  </body>
+</html>

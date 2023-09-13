@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            
+        }
+        #whole{
+            margin-left: 20%;
+            display: flex;
+            flex-direction: row;
+        }
+        #vertical,#horizontal{
+            margin:80px;
+        }
+        #containerh,#containerv{
+            display: flex;
+        }
+        .border{
+            margin:10px;
+            border: 1px solid black;
+        }
+        /* styling for vertical navbar */
+        #containerv{
+            flex-direction: column;
+            background-color: rgb(164, 212, 255);
+            margin:10px;
+        }
+        .itemsv{
+            color: blue;
+            padding: 20px;
+
+        }
+        .itemsv:hover{
+            background-color: rgb(255, 174, 0);
+            color: white;
+        }
+
+        /* styling for horizontal navbar */
+        #containerh{
+            flex-direction: row;
+            background-color: rgb(181, 181, 181);
+            ;
+            margin:10px;
+        }
+        .itemsh{
+            color: blue;
+            padding: 20px;
+            border-right: 1px solid black;
+
+        }
+        .itemsh:hover{
+            background-color: rgb(71, 71, 71);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS task 2</h1>
+    <div id="whole">
+    <div id="vertical">
+    <h2>vertical navigation var</h2>
+    <div class="border">
+<div id="containerv">
+        <div class="itemsv">Home</div>
+        <div class="itemsv">Java</div>
+        <div class="itemsv">CSS</div>
+        <div class="itemsv">HTML</div>
+        <div class="itemsv">Bootstrap</div>
+    </div>
+    </div>
+    
+    </div>
+    <div id="horizontal">
+        <h2>horizontal navigation var</h2>
+        <div class="border">
+           <div id="containerh">
+            <div class="itemsh">Home</div>
+            <div class="itemsh">Java</div>
+            <div class="itemsh">CSS</div>
+            <div class="itemsh">HTML</div>
+            <div class="itemsh">Bootstrap</div>
+        </div> 
+        </div>
+        
+        </div>
+    
+    </div>
+
+</body>
+</html>

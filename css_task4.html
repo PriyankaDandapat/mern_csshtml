@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS taks 4</title>
+    <style>
+        #main{
+            /* border: 1px solid black; */
+            display: flex;
+        }
+        #sidebuttons{
+            display: flex;
+            flex-direction: column;
+        }
+        .sidebox{
+            border-radius: 8px;
+            margin: 8px;
+            width: 50px;
+            height: 50px;
+            margin-left: none;
+        }
+        .sidebox:hover{
+            width: 70px;
+            height: 70px;
+        }
+        #first{
+            background-color: rgb(0, 180, 120);
+            border: 1px solid rgb(0, 180, 120);
+        }
+        #first:hover{
+            background-color: rgb(9, 240, 163);
+            border: 1px solid rgb(0, 180, 120);
+        }
+        
+        #second{
+            background-color: rgb(0, 75, 180);
+            border: 1px solid rgb(0, 75, 180);
+        }
+        #second:hover{
+            background-color: rgb(29, 123, 255);
+            border: 1px solid rgb(0, 75, 180);
+        }
+        #third{
+            background-color: rgb(180, 36, 0);
+            border: 1px solid rgb(180, 36, 0);
+        }
+        #third:hover{
+            background-color: rgb(232, 63, 21);
+            border: 1px solid rgb(180, 36, 0);
+        }
+        #fourth{
+            background-color: rgb(66, 66, 66);
+            border: 1px solid rgb(66, 66, 66); 
+        }
+        #fourth:hover{
+            background-color: rgb(182, 182, 182);
+            border: 1px solid rgb(66, 66, 66);  
+        }
+        #text{
+            margin-left: 30px;
+        }
+        button{
+            width: 100px;
+            height: 100px;
+        }
+        p{
+            font-size: large;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="sidebuttons">
+            <a href="#" >
+                <button id="first" class="sidebox"></button>
+              </a>
+            <a href="#" >
+                <button id="second" class="sidebox"></button>
+              </a>
+            <a href="#" >
+                <button id="third" class="sidebox"></button>
+              </a>
+            <a href="#" >
+                <button id="fourth" class="sidebox"></button>
+              </a>
+        </div>
+        <div id="text">
+            <h1>Hoverable Sidenav buttons</h1>
+            <p>hover over the buttons in the left side navigation to open them</p>
+        </div>
+    </div>
+    
+</body>
+</html>

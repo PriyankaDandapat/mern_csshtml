@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: rgb(255, 234, 214);
+            text-align: center;
+        }
+        body{
+            background-color: bisque;
+        }
+        #login{
+            width: max-content;
+            padding: 20px;
+            height: 400px;
+            background-color: white;
+            margin-left: 35%;
+            margin-top: 7%;
+            border: 5px solid rgb(249, 212, 166) ;
+        }
+        img{
+            margin-left:150px;   
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            border: 1px solid orange;
+        }
+        div{
+            /* background-color: blue; */
+            /* width: 600px; */
+            padding: 5px;
+        }
+        input{
+            padding: 5px;
+            width: 400px;
+        }
+        .defsize{
+            width: fit-content;
+        }
+        ul,li{
+            padding: none;
+            width: 100px;
+        }
+        label{
+            font-weight: bold;
+        }
+        .login{
+            color: white;
+            background-color:orange ;
+            border: 1px solid orange ;
+        }
+        #cancel{
+            color: white;
+            background-color: orangered;
+            border: 1px solid orangered;
+            border-radius: 5px;
+        }
+        #grey{
+            background-color: rgb(219, 217, 217);
+            display: inline-block;
+        }
+        a{
+            margin-left: 240px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS Task 6</h1>
+    <div id="login">
+        <img src="face icon.avif" alt="Avatar">
+        <form id="info">
+            <!-- <div class="formcontent"> -->
+                <div><label for="Username">
+                    Username
+                </label><br><input type="text" name="uname" value="enter username"/></div>
+                <div><label for="password">
+                    Password
+                </label><br><input type="password" name="pass" value="enter password"/></div>
+                <div><input type="submit" value="login" class="login"/></div>
+                <div><input type="checkbox" id="check" name="check" class="defsize">Remember me</div>
+                <div id="grey">
+                   <input type="submit" value="cancel" class="defsize" id="cancel"/>
+                <a href="#">forgot password?</a>  
+                </div>
+                              
+             
+             
+              
+        </form>
+    </div>
+    
+</body>
+</html>

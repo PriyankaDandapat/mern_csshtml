@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS TASK 7</title>
+    <style>
+      body {
+        background-color: rgb(166, 0, 67);
+      }
+      h1{
+        text-align: center;
+        color: white;
+      }
+      #container {
+        padding: 10px 20px;
+        display: inline-block;
+        margin-left: 500px;
+        margin-top: 80px;
+        background-color: rgb(108, 0, 43);
+      }
+      form {
+        color: white;
+        margin: 5px;
+      }
+      label{
+        width: 170px;
+        display: inline-block;
+        margin:0.2cm;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      input {
+        margin: 5px;
+        padding: 4px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        width:7cm;
+
+      }
+      input[type=radio]{
+        width:auto
+      }
+      input[type=submit]{
+        background-color: rgb(255, 255, 255);
+        width: 480px;
+        height: 30px;
+      }
+      input[type=submit]:hover{
+        color: white;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS TASK 7</h1>
+    <div id="container">
+      <!-- <table align="center" width="450">
+        <tr>
+          <th>Name:</th>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <th>Email:</th>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <th>Password:</th>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <th>Phone Number:</th>
+          <td><input type="tel" /></td>
+        </tr>
+        <tr>
+          <th>Phone Number:</th>
+          <td>
+            Male<input type="radio" id="mygender" /> Female<input
+              type="radio"
+              id="mygender"
+            />
+            Others<input
+              type="radio"
+              id="mygender"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <th>Language:</th>
+          <td>
+            <select name="Choosecar" id="car">
+              <option value="nothing" selected>select language</option>
+              <option value="Hindi">Hindi</option>
+              <option value="English">English</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Zipcode:</th>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <th>About:</th>
+          <td><textarea name="mytext" cols="30" rows="10" value="write about yourself"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Register" class="button" /></td>
+          
+        </tr>
+      </table> -->
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="your name">
+        <br>
+        <label>Email:</label>
+        <input type="email" placeholder="your email">
+        <br>
+        <label>Password:</label>
+        <input type="password" >
+        <br>
+        <label>Phone Number:</label>
+        <input type="tel" >
+        
+        <br>
+        <label>Gender:</label>
+        Male<input type="radio" id="mygender" /> Female<input
+              type="radio"
+              id="mygender"
+            />
+            Other<input
+              type="radio"
+              id="mygender"
+            />
+            <br>
+        <label>Language:</label>
+        <select name="Choosecar" id="car">
+            <option value="nothing" selected>select language</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+          </select>
+          <br>
+        <label>Zip code:</label>
+        <input type="number" >
+        <br>
+        <label>About:</label>
+        <textarea name="mytext" cols="30" rows="5" placeholder="write about yourself"></textarea>
+        <br>
+        <input type="submit" value="Register" class="button" /></td>         
+    </form>
+    </div>
+  </body>
+</html>
